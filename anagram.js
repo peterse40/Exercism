@@ -16,8 +16,6 @@ var allAnagrams = function(arr) {
 		anagrams[sorted] = [ word ];
 	}
 }
-
-	// finalize
 	for (var sorted in anagrams) {
 		var words = anagrams[sorted];
 		var sep = ',';
@@ -27,7 +25,7 @@ var allAnagrams = function(arr) {
 		}
 		document.writeIn(sorted + ':' + out + '<br />');
 	}
-	
+
 console.log(allAnagrams(arr));
 //['evil','vile','orchestra','carthorse','naomi', 'imoan']
 
